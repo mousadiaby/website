@@ -1,0 +1,60 @@
+body {
+  height: 1000px;
+  margin: 0; /* Remove default body margin */
+}
+
+.web-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(21, 21, 21);
+  padding: 0 20px; /* Optional padding for spacing */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.mousa-lists {
+  display: flex; /* Align items horizontally */
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Remove default list styling */
+}
+
+.first-list {
+  display: flex; /* Align list items horizontally */
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Remove default list styling */
+}
+
+.clubs, .trophies, .stats, .matches {
+  padding: 13px 25px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.clubs:hover, .trophies:hover, .stats:hover, .matches:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.sign-in {
+  font-size: 18px;
+  color: white;
+  white-space: nowrap; /* Prevent text from wrapping */
+  margin-left: auto; /* Push to the right */
+  display: flex;
+}
+
+.log-in {
+  margin: 0; /* Ensure no extra margin on the p tag */
+}
+.log-in:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.icon{
+  width: 24px;
+      height: 24px;
+      fill: #fff; 
+}
