@@ -49,12 +49,59 @@ body {
 .log-in {
   margin: 0; /* Ensure no extra margin on the p tag */
 }
-.log-in:hover{
+
+.log-in:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-.icon{
+
+.icon {
   width: 24px;
-      height: 24px;
-      fill: #fff; 
+  height: 24px;
+  fill: #fff;
+}
+
+.signin-page {
+  font-size: 30px;
+  color: white;
+}
+
+.username-text {
+  background-color: black;
+  color: white;
+  width: 220px; /* Increase the width by 20px to account for 10px on each side */
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.log-pressed {
+  display: flex;
+  flex-direction: column; /* Ensure items stack vertically */
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.828);
+}
+
+.log-container {
+  margin-top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.username{
+  margin-top: 20px;
+}
+.user-input{
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 30px;
+}
+.user-warning{
+  margin: 0;
+  font-size: 15px;
 }

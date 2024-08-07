@@ -9,21 +9,33 @@
 <body>
 <div class="opening-page">
   <div class="web-top">
-<div class="mousa-lists">
-  <ul class="first-list">
-    <li class="clubs">clubs</li>
-    <li class="trophies">trophies</li>
-    <li class="stats">stats</li>
-    <li class="matches">matches</li>
-  </ul>
+    <div class="mousa-lists">
+      <ul class="first-list">
+        <li class="clubs">clubs</li>
+        <li class="trophies">trophies</li>
+        <li class="stats">stats</li>
+        <li class="matches">matches</li>
+      </ul>
+    </div>
+    <div class="sign-in">
+      <svg class="icon" viewBox="0 0 24 24">
+        <path id="signIn-a" d="M12 0c6.627 0 12 5.265 12 11.76 0 6.496-5.373 11.76-12 11.76S0 18.257 0 11.76C0 5.265 5.373 0 12 0zm0 16.465c-3.082 0-5.793.988-7.365 2.484A10.473 10.473 0 0012 21.953c2.875 0 5.48-1.15 7.365-3.004-1.572-1.496-4.283-2.484-7.365-2.484zm0-11.18a4.799 4.799 0 000 9.595c2.65 0 4.8-2.147 4.8-4.797S14.65 5.286 12 5.286z" data-v-1fe27dd7=""></path>
+      </svg>
+      <p class="log-in" id="sign-in-button">sign in</p>
+    </div>
+  </div>
 </div>
-<div class="sign-in">
-  <svg class="icon" viewBox="0 0 24 24">
-    <path id="signIn-a" d="M12 0c6.627 0 12 5.265 12 11.76 0 6.496-5.373 11.76-12 11.76S0 18.257 0 11.76C0 5.265 5.373 0 12 0zm0 16.465c-3.082 0-5.793.988-7.365 2.484A10.473 10.473 0 0012 21.953c2.875 0 5.48-1.15 7.365-3.004-1.572-1.496-4.283-2.484-7.365-2.484zm0-11.18a4.799 4.799 0 000 9.595c2.65 0 4.8-2.147 4.8-4.797S14.65 5.286 12 5.286z" data-v-1fe27dd7=""></path>
-  </svg>
-<p class="log-in"> sign in </p>
-</div>
-</div>
+<div class="log-container">
+  <div class="log-pressed">
+    <span class="signin-page">sign into mousa diaby</span>
+    <span class="username">
+      <input class="username-text" id="usernameid" value="username/email/phone">
+      <p class="user-warning" id="user-warning"></p>
+    </span>
+    <span class="button-submit">
+      <button class="user-input" id="submituser">submit</button>
+    </span>
+  </div>
 </div>
 
 <script src="script.js"></script>
