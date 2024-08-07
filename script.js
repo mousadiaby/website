@@ -35,9 +35,9 @@ document.addEventListener('DOMContentLoaded', function() {
       userwarning.textContent ="You must write something for your user name";
       
     } else {
- // Handle non-empty input
+
       const usernamevalue = usernameInput.value
-  
+      userwarning.textContent ="";
     }
   }
 
